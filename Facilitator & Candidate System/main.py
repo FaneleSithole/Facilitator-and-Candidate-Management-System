@@ -57,7 +57,7 @@ frame2_label.grid(row=0, column=0, padx=10, pady=10)
 
 #Candidate Button
 def candidate_button_event():
-    subprocess.Popen(['python', 'candidate1.py'])
+    subprocess.Popen(['python', 'candidate/candidate1.py'])
     app.destroy()
     print("Candidate button pressed")
 
@@ -73,7 +73,7 @@ candidate_button.grid(row=1, column=0, pady=10, sticky="se")
 
 #Facilitator Button
 def facilitator_button_event():
-    subprocess.Popen(['python', 'facilitatorLogin.py'])
+    subprocess.Popen(['python', 'facilitator/facilitatorLogin.py'])
     app.destroy()
     print("Facilitator button pressed")
 
